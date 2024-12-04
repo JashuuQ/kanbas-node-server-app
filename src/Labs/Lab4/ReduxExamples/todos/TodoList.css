@@ -1,0 +1,49 @@
+/* Container Styling */
+#wd-todo-list-redux {
+    max-width: 500px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+  
+#wd-todo-list-redux h5 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+  
+/* Styling for Form Row */
+#wd-todo-list-redux .form-row {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between elements */
+}
+
+/* Input Styling */
+#wd-todo-list-redux input {
+    flex-grow: 1; /* Allow input to grow to fill space */
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Button Styling */
+#wd-todo-list-redux .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Specific Button Colors */
+.btn-success {
+    background-color: #4CAF50; /* Green */
+}
+
+.btn-warning {
+    background-color: #FFD700; /* Yellow */
+}

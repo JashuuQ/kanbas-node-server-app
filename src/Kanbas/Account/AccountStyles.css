@@ -1,0 +1,57 @@
+#wd-account-navigation {
+    width: 150px;
+    font-size: 1.5rem;
+}
+
+.inactive-link {
+    color: rgb(213, 0, 0) !important;
+    font-weight: normal;
+}
+
+.active-link {
+    color: black !important;
+    border-left: 3px solid black !important;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.list-group-item.active,
+.list-group-item.active-link {
+    color: black !important;
+    background-color: white !important;
+    border-left: 3px solid black !important;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+#wd-signup-screen {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-control {
+    height: 45px;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 15px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+.text-primary {
+    color: #007bff;
+}
+
+.text-primary:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

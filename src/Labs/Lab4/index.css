@@ -1,0 +1,30 @@
+h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* General button */
+.button-common {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-common:hover {
+    opacity: 0.9;
+}
+
+/* Green button */
+.btn-green {
+    background-color: #1a951e;
+}
+
+/* Red button */
+.btn-red {
+    background-color: #be2c21;
+}
