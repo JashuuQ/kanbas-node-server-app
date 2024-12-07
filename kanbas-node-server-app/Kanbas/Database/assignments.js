@@ -6,6 +6,7 @@ export default
       "course": "CS5610",
       "dueDate": "May 13 at 11:59pm",
       "availableFrom": "May 6 at 12:00am",
+      "availableUntil": "May 20 at 11:59pm",
       "points": "100",
       "description": "Build a responsive personal portfolio using HTML and CSS."
     },
@@ -15,6 +16,7 @@ export default
       "course": "CS5610",
       "dueDate": "May 20 at 11:59pm",
       "availableFrom": "May 13 at 12:00pm",
+      "availableUntil": "May 27 at 11:59pm",
       "points": "100",
       "description": "Develop a SPA using React to manage dynamic content."
     },
@@ -24,6 +26,7 @@ export default
       "course": "CS5610",
       "dueDate": "May 27 at 11:59pm",
       "availableFrom": "May 20 at 12:00am",
+      "availableUntil": "June 1 at 11:59pm",
       "points": "100",
       "description": "Create a full stack app using Node.js and Express."
     },
@@ -34,6 +37,7 @@ export default
       "course": "CS5200",
       "dueDate": "May 13 at 11:59pm",
       "availableFrom": "May 6 at 12:00am",
+      "availableUntil": "May 20 at 11:59pm",
       "points": "100",
       "description": "Design an ER diagram to represent a library system."
     },
@@ -43,6 +47,7 @@ export default
       "course": "CS5200",
       "dueDate": "May 20 at 11:59pm",
       "availableFrom": "May 13 at 12:00pm",
+      "availableUntil": "May 27 at 11:59pm",
       "points": "100",
       "description": "Write SQL queries to retrieve data from a database."
     },
@@ -52,6 +57,7 @@ export default
       "course": "CS5200",
       "dueDate": "May 27 at 11:59pm",
       "availableFrom": "May 20 at 12:00am",
+      "availableUntil": "June 1 at 11:59pm",
       "points": "100",
       "description": "Use indexing techniques to improve database performance."
     },
@@ -62,6 +68,7 @@ export default
       "course": "CS5800",
       "dueDate": "May 13 at 11:59pm",
       "availableFrom": "May 6 at 12:00am",
+      "availableUntil": "May 20 at 11:59pm",
       "points": "100",
       "description": "Analyze and compare different sorting algorithms."
     },
@@ -71,6 +78,7 @@ export default
       "course": "CS5800",
       "dueDate": "May 20 at 11:59pm",
       "availableFrom": "May 13 at 12:00pm",
+      "availableUntil": "May 27 at 11:59pm",
       "points": "100",
       "description": "Implement graph algorithms to solve pathfinding problems."
     },
@@ -80,6 +88,7 @@ export default
       "course": "CS5800",
       "dueDate": "May 27 at 11:59pm",
       "availableFrom": "May 20 at 12:00pm",
+      "availableUntil": "June 1 at 11:59pm",
       "points": "100",
       "description": "Use dynamic programming to solve optimization problems."
     },
@@ -90,6 +99,7 @@ export default
       "course": "CS5001",
       "dueDate": "May 13 at 11:59pm",
       "availableFrom": "May 6 at 12:00am",
+      "availableUntil": "May 20 at 11:59pm",
       "points": "100",
       "description": "Solve a real-world problem using object-oriented principles."
     },
@@ -99,6 +109,7 @@ export default
       "course": "CS5001",
       "dueDate": "May 20 at 11:59pm",
       "availableFrom": "May 13 at 12:00pm",
+      "availableUntil": "May 27 at 11:59pm",
       "points": "100",
       "description": "Build a small Java application using OOP principles."
     },
@@ -108,6 +119,7 @@ export default
       "course": "CS5001",
       "dueDate": "May 27 at 11:59pm",
       "availableFrom": "May 20 at 12:00pm",
+      "availableUntil": "June 1 at 11:59pm",
       "points": "100",
       "description": "Refactor a project to introduce inheritance and polymorphism."
     },
@@ -118,6 +130,7 @@ export default
       "course": "CS5002",
       "dueDate": "May 13 at 11:59pm",
       "availableFrom": "May 6 at 12:00am",
+      "availableUntil": "May 20 at 11:59pm",
       "points": "100",
       "description": "Use mathematical induction to prove theorems."
     },
@@ -127,6 +140,7 @@ export default
       "course": "CS5002",
       "dueDate": "May 20 at 11:59pm",
       "availableFrom": "May 13 at 12:00pm",
+      "availableUntil": "May 27 at 11:59pm",
       "points": "100",
       "description": "Model real-world problems using graphs and discrete structures."
     },
@@ -136,6 +150,7 @@ export default
       "course": "CS5002",
       "dueDate": "May 27 at 11:59pm",
       "availableFrom": "May 20 at 12:00pm",
+      "availableUntil": "June 1 at 11:59pm",
       "points": "100",
       "description": "Solve problems based on set theory."
     },
@@ -146,6 +161,7 @@ export default
       "course": "CS5004",
       "dueDate": "May 13 at 11:59pm",
       "availableFrom": "May 6 at 12:00am",
+      "availableUntil": "May 20 at 11:59pm",
       "points": "100",
       "description": "Implement design patterns in a Java-based application."
     },
@@ -155,6 +171,7 @@ export default
       "course": "CS5004",
       "dueDate": "May 20 at 11:59pm",
       "availableFrom": "May 13 at 11:59pm",
+      "availableUntil": "May 27 at 11:59pm",
       "points": "100",
       "description": "Create UML diagrams to visualize the software design."
     },
@@ -164,6 +181,7 @@ export default
       "course": "CS5004",
       "dueDate": "May 27 at 11:59pm",
       "availableFrom": "May 20 at 12:00pm",
+      "availableUntil": "June 1 at 11:59pm",
       "points": "100",
       "description": "Refactor code using advanced OOP principles."
     },
@@ -174,6 +192,7 @@ export default
       "course": "CS5008",
       "dueDate": "May 13 at 11:59pm",
       "availableFrom": "May 6 at 12:00am",
+      "availableUntil": "May 20 at 11:59pm",
       "points": "100",
       "description": "Build and implement a binary search tree in C."
     },
@@ -183,6 +202,7 @@ export default
       "course": "CS5008",
       "dueDate": "May 20 at 11:59pm",
       "availableFrom": "May 13 at 11:59pm",
+      "availableUntil": "May 27 at 11:59pm",
       "points": "100",
       "description": "Design and implement a hash table for data storage."
     },
@@ -192,6 +212,7 @@ export default
       "course": "CS5008",
       "dueDate": "May 27 at 11:59pm",
       "availableFrom": "May 20 at 12:00pm",
+      "availableUntil": "June 1 at 11:59pm",
       "points": "100",
       "description": "Optimize algorithms to reduce memory usage."
     }

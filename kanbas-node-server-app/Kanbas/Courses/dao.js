@@ -3,19 +3,10 @@ import Database from '../Database/index.js';
 Database.courses = Database.courses || [];
 Database.enrollments = Database.enrollments || [];
 
-export function createCourse(req, res) {
-  console.log('Request body:', req.body);
-  const { name, description, credits, number, startDate, endDate } = req.body;
-
-  if (!name || !description || !credits || !number || !startDate || !endDate) {
-    return res.status(400).json({ error: 'Missing required fields.' });
-  }
-
-  const newCourse = { ...req.body, _id: Date.now().toString() };
-
+export function createCourse(course) {
+  const newCourse = { ...course, _id: Date.now().toString() };
   Database.courses = [...Database.courses, newCourse];
-  console.log('New course created:', newCourse);
-  res.status(201).json(newCourse);
+  return newCourse;
 }
 
 export function findAllCourses() {

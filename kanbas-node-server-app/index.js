@@ -27,7 +27,7 @@ const app = express();
 // CORS Configuration
 app.use(
   cors({
-    origin: process.env.NETLIFY_URL || 'http://localhost:3000/',
+    origin: process.env.NETLIFY_URL || 'http://localhost:3000',
     credentials: true,
   })
 );
@@ -43,20 +43,16 @@ app.options('*', (req, res) => {
   res.sendStatus(204);
 });
 
-app.use((req, res, next) => {
-  console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
-  next();
-});
+// app.use((req, res, next) => {
+//   console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+//   next();
+// });
 
 // Session Options
 const sessionOptions = {
-  secret: process.env.SESSION_SECRET || 'kanbas',
+  secret: process.env.SESSION_SECRET || "kanbas",
   resave: false,
   saveUninitialized: false,
-  cookie: {
-    sameSite: 'lax',
-    secure: process.env.NODE_ENV === 'production',
-  },
 };
 
 if (process.env.NODE_ENV !== 'development') {
