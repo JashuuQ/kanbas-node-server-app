@@ -44,12 +44,19 @@ export function updateCourse(courseId, courseUpdates) {
 }
 
 export function findCoursesForEnrolledUser(userId) {
-  console.log(userId, Database.courses, '>>>>>>>');
+  console.log('Finding courses for user:', userId);
+  if (!Database.enrollments || !Database.courses) {
+    console.log('Enrollments or Courses database is empty.');
+    return [];
+  }
   return Database.courses.filter((course) =>
     Database.enrollments.some(
-      (enrollment) =>
-        enrollment.course === course._id &&
-        enrollment.user === req.session.user._id
+      (enrollment) => 
+        enrollment.course === course._id && 
+        enrollment.user === userId
     )
   );
 }
+
+
+
